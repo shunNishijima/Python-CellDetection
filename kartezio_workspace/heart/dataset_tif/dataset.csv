@@ -1,7 +1,0 @@
-input,label,set
-la_003_.tif,la_003_mask.zip,training
-la_004_.tif,la_004_mask.zip,training
-la_005_.tif,la_005_mask.zip,training
-la_007_.tif,la_007_mask.zip,training
-la_009_.tif,la_009_mask.zip,training
-la_010_.tif,la_010_mask.zip,testing

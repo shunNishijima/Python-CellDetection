@@ -1,4 +1,0 @@
-- NOTE
-  - 10 images for training set
-  - 10 images for testing set
-  - 20k iterations
