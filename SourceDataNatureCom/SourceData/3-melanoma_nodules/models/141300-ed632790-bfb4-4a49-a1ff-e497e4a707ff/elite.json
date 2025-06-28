@@ -1,0 +1,78 @@
+{
+    "dataset": {
+        "name": "Tumor",
+        "label_name": "tumor",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [6, 2, 0, 154, 139], [1, 1, 2, 98, 98], [41, 2, 1, 179, 127], [15, 1, 4, 184, 234], [36, 5, 6, 147, 154], [15, 3, 6, 17, 117], [7, 7, 2, 10, 19], [5, 8, 7, 247, 83], [9, 7, 8, 106, 7], [30, 6, 7, 225, 156], [23, 10, 5, 242, 160], [22, 3, 7, 76, 34], [17, 9, 5, 250, 165], [37, 5, 15, 67, 138], [29, 2, 13, 59, 129], [14, 13, 1, 44, 127], [40, 18, 18, 18, 234], [20, 13, 1, 54, 145], [25, 5, 20, 189, 111], [35, 11, 5, 221, 136], [38, 10, 20, 72, 64], [35, 17, 20, 180, 198], [36, 3, 14, 166, 3], [29, 0, 25, 109, 12], [28, 19, 13, 69, 61], [33, 23, 21, 200, 161], [25, 26, 28, 251, 26], [23, 8, 1, 21, 126], [10, 17, 20, 10, 142], [40, 27, 31, 226, 6], [0, 27, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.14814078935559946,
+            "time": 0.03348827362060547
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 3,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Threshold (t=4)",
+            "abbv": "TRSH",
+            "arity": 1,
+            "p": 0,
+            "kwargs": {
+                "threshold": 4
+            }
+        },
+        "mode": "default"
+    }
+}

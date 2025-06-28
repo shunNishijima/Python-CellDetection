@@ -1,0 +1,24 @@
+{
+    "name": "Synapses",
+    "scale": 1,
+    "label_name": "cell",
+    "mode": "dataframe",
+    "input": {
+        "type": "image",
+        "format": "channels"
+    },
+    "label": {
+        "type": "roi",
+        "format": "polygon"
+    },
+    "channels": {
+        "0": {"name": "GzmB", "threshold": [4, 255]},
+        "1": {"name": "Perf", "threshold": [4, 255]},
+        "2": {"name": "Lamp", "threshold": [4, 255]}
+    },
+    "conditions": {
+        "std": {"type": "time", "filename": "dataset.csv"}
+    },
+    "method": "standard",
+    "separator": "-"
+}

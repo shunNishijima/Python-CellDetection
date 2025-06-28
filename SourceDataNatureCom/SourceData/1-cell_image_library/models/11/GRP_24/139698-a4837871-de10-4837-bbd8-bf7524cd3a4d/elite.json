@@ -1,0 +1,92 @@
+{
+    "dataset": {
+        "name": "CIL",
+        "label_name": "neuron",
+        "indices": [
+            28,
+            81,
+            45,
+            42,
+            74,
+            10,
+            63,
+            83,
+            80,
+            37,
+            4
+        ]
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [24, 1, 0, 204, 68], [14, 2, 1, 10, 33], [12, 0, 2, 60, 80], [34, 0, 0, 98, 53], [3, 0, 4, 90, 184], [22, 0, 1, 172, 224], [11, 6, 5, 195, 66], [0, 5, 3, 243, 141], [24, 3, 9, 146, 216], [21, 5, 0, 3, 214], [4, 6, 3, 198, 143], [36, 10, 11, 22, 73], [23, 13, 1, 31, 98], [34, 2, 5, 120, 42], [11, 11, 13, 11, 200], [19, 7, 2, 129, 101], [5, 16, 8, 249, 110], [37, 10, 7, 247, 76], [34, 10, 19, 146, 142], [4, 20, 12, 155, 63], [6, 7, 9, 114, 122], [11, 4, 1, 63, 43], [23, 20, 0, 69, 14], [31, 5, 23, 92, 131], [13, 20, 21, 208, 43], [17, 13, 15, 43, 19], [34, 4, 8, 222, 44], [1, 22, 4, 147, 36], [10, 1, 13, 145, 65], [25, 12, 12, 158, 146], [0, 8, 0, 0, 0], [0, 13, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.12118377468802712,
+            "time": 0.09658956527709961
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 2,
+            "n_out": 2,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Marker-Based Watershed",
+            "abbv": "WSHD",
+            "arity": 2,
+            "p": 0,
+            "kwargs": {
+                "use_dt": false,
+                "markers_distance": 21,
+                "markers_area": null
+            }
+        },
+        "mode": "default"
+    }
+}

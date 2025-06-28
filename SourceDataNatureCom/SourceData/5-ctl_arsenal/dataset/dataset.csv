@@ -1,0 +1,10 @@
+input,label,set
+train/train_x/1_Z9-Z11_S512.tif,train/train_y/1.zip,training
+train/train_x/4_Z12-Z14_S512.tif,train/train_y/4.zip,training
+train/train_x/9_Z7-Z9_S512.tif,train/train_y/9.zip,training
+train/train_x/14_Z8-Z10_S512.tif,train/train_y/14.zip,training
+train/train_x/16_Z5-Z7_S512.tif,train/train_y/16.zip,training
+test/test_x/2_Z12-Z14_S512.tif,test/test_y/2_Z12-Z14_S512.zip,testing
+test/test_x/5_Z6-Z8_S512.tif,test/test_y/5_Z6-Z8_S512.zip,testing
+test/test_x/10_Z4-Z6_S512.tif,test/test_y/10_Z4-Z6_S512.zip,testing
+test/test_x/15_Z7-Z9_S512.tif,test/test_y/15_Z7-Z9_S512.zip,testing

@@ -1,0 +1,14 @@
+{
+    "name": "CTL",
+    "scale": 3.79396637939,
+    "label_name": "CTL",
+    "mode": "dataframe",
+    "input": {
+        "type": "image",
+        "format": "channels"
+    },
+    "label": {
+        "type": "roi",
+        "format": "polygon"
+    }
+}

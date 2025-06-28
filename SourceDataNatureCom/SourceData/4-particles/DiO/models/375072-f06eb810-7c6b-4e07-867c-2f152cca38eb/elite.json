@@ -1,0 +1,79 @@
+{
+    "dataset": {
+        "name": "WGA Particles",
+        "label_name": "particle",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [33, 0, 0, 42, 253], [41, 0, 1, 182, 20], [19, 0, 0, 70, 51], [32, 1, 1, 198, 107], [3, 2, 1, 70, 157], [29, 3, 0, 193, 170], [30, 3, 2, 4, 11], [9, 6, 3, 214, 77], [5, 4, 4, 117, 205], [1, 9, 2, 98, 147], [14, 7, 7, 10, 87], [0, 8, 4, 142, 61], [20, 0, 11, 183, 27], [30, 12, 9, 224, 249], [31, 14, 1, 173, 125], [41, 14, 1, 72, 119], [12, 12, 10, 95, 243], [21, 14, 13, 202, 131], [17, 1, 5, 53, 48], [6, 11, 7, 6, 34], [9, 14, 2, 66, 89], [25, 13, 13, 160, 137], [2, 4, 10, 218, 222], [30, 6, 12, 78, 194], [5, 22, 8, 206, 10], [22, 13, 11, 148, 143], [11, 20, 17, 30, 190], [0, 12, 21, 175, 150], [34, 4, 6, 230, 203], [23, 11, 20, 192, 41], [0, 11, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.20555555820465088,
+            "time": 0.01154559850692749
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 1,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Local-Max Watershed",
+            "abbv": "LMW",
+            "arity": 1,
+            "p": 0,
+            "kwargs": {
+                "threshold": 1,
+                "markers_distance": 5
+            }
+        },
+        "mode": "default"
+    }
+}

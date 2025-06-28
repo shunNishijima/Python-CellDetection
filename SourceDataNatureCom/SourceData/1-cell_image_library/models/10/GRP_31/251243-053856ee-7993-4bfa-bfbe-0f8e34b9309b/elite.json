@@ -1,0 +1,91 @@
+{
+    "dataset": {
+        "name": "CIL",
+        "label_name": "neuron",
+        "indices": [
+            75,
+            58,
+            57,
+            16,
+            66,
+            15,
+            87,
+            35,
+            8,
+            83
+        ]
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [34, 0, 1, 184, 131], [2, 1, 2, 38, 106], [2, 3, 0, 103, 206], [18, 2, 4, 71, 205], [39, 3, 5, 110, 205], [11, 3, 5, 205, 235], [13, 7, 5, 10, 138], [36, 2, 8, 129, 153], [32, 2, 3, 78, 181], [1, 7, 8, 10, 149], [15, 11, 10, 31, 243], [39, 4, 9, 135, 206], [24, 4, 6, 97, 250], [0, 0, 14, 243, 241], [14, 2, 1, 31, 197], [34, 11, 14, 222, 149], [19, 6, 10, 101, 94], [16, 16, 14, 166, 191], [32, 4, 17, 23, 116], [1, 11, 10, 85, 170], [0, 4, 16, 80, 106], [35, 7, 10, 50, 235], [6, 11, 5, 48, 173], [10, 7, 20, 198, 144], [4, 4, 12, 90, 211], [16, 10, 25, 126, 60], [24, 15, 0, 174, 79], [0, 13, 10, 134, 118], [11, 14, 20, 243, 59], [37, 14, 29, 157, 134], [0, 30, 0, 0, 0], [0, 12, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.17095390558242798,
+            "time": 0.05124752521514893
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 2,
+            "n_out": 2,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "W",
+            "abbv": "WSHD",
+            "arity": 2,
+            "p": 0,
+            "kwargs": {
+                "use_dt": false,
+                "markers_distance": 21,
+                "markers_area": null
+            }
+        },
+        "mode": "default"
+    }
+}

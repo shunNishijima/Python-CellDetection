@@ -1,0 +1,87 @@
+{
+    "dataset": {
+        "name": "4-Synapses",
+        "label_name": "cell",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [36, 0, 1, 63, 120], [36, 1, 1, 205, 178], [34, 0, 1, 112, 79], [29, 4, 0, 88, 124], [3, 1, 5, 102, 66], [28, 5, 0, 184, 93], [20, 6, 3, 230, 76], [10, 8, 7, 42, 218], [35, 4, 3, 105, 54], [6, 0, 10, 72, 206], [26, 0, 8, 131, 42], [3, 9, 0, 201, 243], [8, 6, 10, 104, 238], [29, 0, 6, 80, 14], [26, 14, 9, 109, 61], [38, 4, 5, 79, 199], [41, 14, 8, 227, 197], [10, 0, 16, 194, 168], [33, 16, 10, 200, 161], [36, 13, 10, 148, 100], [31, 9, 18, 192, 15], [6, 0, 2, 253, 32], [21, 18, 15, 121, 246], [27, 3, 23, 243, 22], [39, 19, 23, 93, 159], [10, 8, 11, 138, 57], [41, 12, 23, 47, 93], [0, 22, 4, 12, 51], [24, 28, 8, 156, 23], [22, 6, 14, 55, 193], [0, 21, 0, 0, 0], [0, 16, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.20681802183389664,
+            "time": 0.16710907220840454
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 2,
+            "n_out": 2,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Marker-Based Watershed",
+            "abbv": "WSHD",
+            "arity": 2,
+            "p": 0,
+            "kwargs": {
+                "use_dt": false,
+                "markers_distance": 21,
+                "markers_area": null
+            }
+        },
+        "mode": "series",
+        "stacker": {
+            "name": "mean_stacker",
+            "abbv": "MEAN",
+            "arity": 2,
+            "p": 0,
+            "kwargs": {}
+        }
+    }
+}

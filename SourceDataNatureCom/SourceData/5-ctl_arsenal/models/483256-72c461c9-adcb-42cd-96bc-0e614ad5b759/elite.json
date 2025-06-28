@@ -1,0 +1,86 @@
+{
+    "dataset": {
+        "name": "CTL",
+        "label_name": "CTL",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [5, 0, 0, 191, 8], [25, 0, 1, 252, 87], [32, 1, 1, 210, 218], [40, 1, 0, 250, 130], [21, 1, 4, 232, 27], [32, 2, 0, 13, 206], [39, 0, 0, 10, 73], [14, 4, 6, 239, 70], [0, 6, 8, 96, 230], [31, 4, 6, 23, 21], [40, 8, 2, 51, 212], [37, 9, 8, 77, 41], [34, 0, 10, 87, 71], [25, 5, 10, 158, 75], [29, 12, 10, 21, 36], [33, 9, 0, 23, 77], [33, 15, 8, 206, 73], [3, 0, 7, 166, 43], [36, 16, 11, 27, 38], [37, 10, 8, 153, 69], [9, 18, 11, 118, 229], [26, 3, 5, 188, 59], [27, 19, 19, 241, 102], [27, 7, 22, 198, 185], [1, 0, 19, 171, 168], [32, 19, 23, 220, 166], [26, 14, 12, 177, 13], [22, 21, 0, 112, 17], [33, 24, 15, 239, 192], [9, 24, 5, 38, 111], [0, 25, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.0,
+            "time": 0.08825774192810058
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 1,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "local_max_watershed",
+            "abbv": "LMW",
+            "arity": 1,
+            "p": 0,
+            "kwargs": {
+                "threshold": 1,
+                "markers_distance": 21
+            }
+        },
+        "mode": "series",
+        "stacker": {
+            "name": "mean_stacker",
+            "abbv": "MEAN",
+            "arity": 1,
+            "p": 0,
+            "kwargs": {}
+        }
+    }
+}

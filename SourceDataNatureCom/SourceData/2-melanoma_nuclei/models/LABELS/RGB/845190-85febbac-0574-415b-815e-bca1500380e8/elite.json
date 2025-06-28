@@ -1,0 +1,78 @@
+{
+    "dataset": {
+        "name": "Melanoma",
+        "label_name": "melanoma",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [23, 2, 0, 161, 69], [27, 3, 2, 38, 228], [2, 2, 1, 208, 124], [41, 2, 5, 221, 64], [25, 4, 4, 197, 229], [0, 7, 3, 131, 57], [3, 7, 4, 157, 179], [8, 7, 7, 110, 137], [16, 0, 7, 116, 78], [20, 8, 1, 54, 252], [4, 6, 12, 97, 185], [11, 7, 5, 204, 202], [13, 1, 12, 163, 120], [17, 9, 7, 73, 240], [8, 10, 11, 142, 2], [4, 8, 11, 185, 46], [21, 4, 18, 109, 221], [3, 19, 4, 202, 45], [38, 19, 9, 29, 214], [8, 11, 14, 1, 136], [22, 5, 2, 123, 57], [36, 22, 17, 222, 62], [20, 19, 17, 135, 112], [21, 6, 13, 196, 146], [26, 18, 1, 206, 184], [34, 16, 13, 212, 132], [29, 28, 12, 44, 92], [38, 26, 4, 125, 227], [30, 25, 11, 122, 204], [36, 0, 24, 74, 47], [0, 28, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.23474660515785217,
+            "time": 0.005450745423634847
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 3,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Labels",
+            "abbv": "LABELS",
+            "arity": 1,
+            "args": 0,
+            "kwargs": {
+                "connectivity": 4
+            }
+        },
+        "mode": "default"
+    }
+}

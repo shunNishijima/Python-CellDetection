@@ -1,0 +1,78 @@
+{
+    "dataset": {
+        "name": "Synapses",
+        "label_name": "cell",
+        "indices": null
+    },
+    "individual": {
+        "sequence": "[[0, 0, 0, 0, 0], [28, 0, 0, 245, 38], [29, 1, 0, 200, 248], [3, 1, 2, 53, 131], [22, 3, 1, 109, 174], [11, 0, 1, 171, 193], [20, 3, 2, 181, 149], [31, 1, 2, 11, 48], [23, 6, 6, 236, 134], [22, 3, 8, 196, 229], [33, 5, 2, 95, 105], [20, 3, 4, 116, 215], [36, 10, 0, 201, 204], [13, 8, 4, 160, 35], [18, 1, 5, 134, 220], [2, 10, 11, 135, 168], [41, 5, 8, 69, 208], [39, 15, 0, 215, 175], [2, 3, 9, 149, 247], [32, 11, 2, 7, 12], [12, 6, 5, 0, 108], [40, 8, 19, 26, 252], [41, 7, 3, 72, 14], [33, 11, 14, 164, 153], [20, 2, 10, 245, 91], [15, 6, 8, 114, 169], [37, 7, 7, 187, 208], [7, 15, 14, 94, 97], [25, 2, 17, 195, 175], [12, 8, 16, 163, 234], [27, 17, 8, 174, 4], [0, 17, 0, 0, 0]]",
+        "fitness": {
+            "fitness": 0.5522014017010934,
+            "time": 0.0027500152587890624
+        }
+    },
+    "decoding": {
+        "metadata": {
+            "rows": 1,
+            "columns": 30,
+            "n_in": 1,
+            "n_out": 1,
+            "n_para": 2,
+            "n_conn": 2
+        },
+        "functions": [
+            "max",
+            "min",
+            "mean",
+            "add",
+            "subtract",
+            "bitwise_not",
+            "bitwise_or",
+            "bitwise_and",
+            "bitwise_and_mask",
+            "bitwise_xor",
+            "sqrt",
+            "pow2",
+            "exp",
+            "log",
+            "median_blur",
+            "gaussian_blur",
+            "laplacian",
+            "sobel",
+            "robert_cross",
+            "canny",
+            "sharpen",
+            "gabor",
+            "abs_diff",
+            "abs_diff2",
+            "fluo_tophat",
+            "rel_diff",
+            "erode",
+            "dilate",
+            "open",
+            "close",
+            "morph_gradient",
+            "morph_tophat",
+            "morph_blackhat",
+            "fill_holes",
+            "remove_small_objects",
+            "remove_small_holes",
+            "threshold",
+            "threshold_at_1",
+            "distance_transform",
+            "distance_transform_and_thresh",
+            "inrange_bin",
+            "inrange"
+        ],
+        "endpoint": {
+            "name": "Threshold (t=128)",
+            "abbv": "TRSH",
+            "arity": 1,
+            "args": 0,
+            "kwargs": {
+                "threshold": 128
+            }
+        },
+        "mode": "default"
+    }
+}
